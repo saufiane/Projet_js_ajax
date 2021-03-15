@@ -90,7 +90,7 @@ form.addEventListener("submit", (e) => {
       datas.forEach((data) => {
         combattants.innerHTML += `                                   
           <div>                                       
-          <img src="${data.img}" alt="" width="250px"> 
+          <img src="${data.img}" alt="" width="500px"> 
           </div>                             
                 <div>                                       
                   <div>                                        
@@ -100,7 +100,7 @@ form.addEventListener("submit", (e) => {
                       <p>${data.age}</p>                
                       </div>
                       <div>                                    
-                      <p>${data.taille}</p>                
+                      <p>${data.taille_poids}</p>                
                       </div>
                       <div>                                    
                       <p>${data.lieu_naissance}</p>                
