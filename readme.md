@@ -28,3 +28,4 @@ Datalist (HTML)
 
 # https://sql.sh/cours/where/like
 # https://www.ufc-fr.com/tous-les-combattants.html
+# https://boxemag.com/
