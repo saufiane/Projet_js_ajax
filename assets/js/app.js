@@ -87,14 +87,18 @@ form.addEventListener("submit", (e) => {
       console.log(datas);
       combattants.innerHTML = "";
       datas.forEach((data) => {
-        combattants.innerHTML += `                                   
-          <div>                                       
+        combattants.innerHTML += `
+        <div class="card">                                   
+          <div class="card_element">                                      
           <img src="${data.img}" alt="" width="500px"> 
           </div>                             
-                <div>                                       
-                  <div>                                        
+                <div class="background_card card_element">                                       
+                  <div class="text_center">                                        
                    <h2>${data.prenom_nom}</h2>                                      
-                    </div>                                                                
+                    </div>
+                    <div>                                    
+                      <p>${data.aka}</p>                
+                      </div>                                                                
                       <div>                                    
                       <p>${data.age}</p>                
                       </div>
@@ -104,7 +108,7 @@ form.addEventListener("submit", (e) => {
                       <div>                                    
                       <p>${data.lieu_naissance}</p>                
                       </div>
-                      <div>                                    
+                      <div>                                  
                       <p>${data.discipline}</p>                
                       </div>
                       <div>                                    
@@ -112,7 +116,9 @@ form.addEventListener("submit", (e) => {
                       </div>
                       <div>                                    
                       <p>${data.titre}</p>                
-                      </div>`
+                    </div>
+                  </div>
+                  </div>`
       });
 
       // je vide mon form
