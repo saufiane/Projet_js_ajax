@@ -90,7 +90,7 @@ form.addEventListener("submit", (e) => {
         combattants.innerHTML += `
         <div class="card">                                   
           <div class="card_element">                                      
-          <img src="${data.img}" alt="" width="500px"> 
+          <img src="${data.img}" alt="img fighters"> 
           </div>                             
                 <div class="background_card card_element">                                       
                   <div class="text_center">                                        

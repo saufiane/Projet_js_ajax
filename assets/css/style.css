@@ -4,7 +4,6 @@ body {
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  
   background-attachment: fixed;
   background-position: right;
 }
@@ -34,8 +33,9 @@ body {
 }
 
 .card_element {
-  width: 55%;
+  width: 30%;
   margin: 0 auto;
+  border: solid rgba(241, 238, 238, 0.438);
 }
 
 .card_element img {
