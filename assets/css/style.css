@@ -1,0 +1,51 @@
+body {
+  background-image: url("./img_css/silva_ufc.jpg");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  background-position: right;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.form_so {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.text-white {
+  color: blanchedalmond;
+}
+
+.background_card {
+  background-color: rgba(7, 7, 7, 0.711);
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card_element {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.card_element img {
+  width: 100%;
+}
+
+.card_text {
+  padding: 5px 10px;
+}
+
+.text_center {
+  text-align: center;
+}
