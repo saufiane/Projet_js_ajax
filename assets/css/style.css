@@ -1,7 +1,7 @@
 body {
   background-image: url("./img_css/silva_ufc.jpg");
-  margin: 0;
-  padding: 0;
+  margin: 5%;
+  padding: 5%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,24 +22,29 @@ body {
 
 .text-white {
   color: blanchedalmond;
+  font-family: "Caveat", cursive;
+  /* font-size: 67px; */
 }
 
 .background_card {
-  background-color: rgba(7, 7, 7, 0.711);
+  background-color: rgba(27, 22, 22, 0.711);
 }
 
 .card {
+  display: flex;
   margin-top: 20px;
+
 }
 
 .card_element {
-  width: 30%;
-  margin: 0 auto;
+  width: 50%;
+  /* margin: 0 auto; */
   border: solid rgba(241, 238, 238, 0.438);
+  
 }
 
 .card_element img {
-  width: 100%;
+  width: 100%; 
 }
 
 .card_text {
@@ -47,5 +52,19 @@ body {
 }
 
 .text_center {
+  margin-bottom: 50px;
   text-align: center;
 }
+
+.aka-color{
+  color: red;
+  font-weight: bold;
+}
+
+/* #combattants{
+
+  margin: 0 auto;
+  /* border: solid red 1px; */
+ */
+
+

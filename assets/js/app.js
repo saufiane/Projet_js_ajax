@@ -96,7 +96,7 @@ form.addEventListener("submit", (e) => {
                   <div class="text_center">                                        
                    <h2>${data.prenom_nom}</h2>                                      
                     </div>
-                    <div>                                    
+                    <div class="aka-color">                                    
                       <p>${data.aka}</p>                
                       </div>                                                                
                       <div>                                    
@@ -118,7 +118,7 @@ form.addEventListener("submit", (e) => {
                       <p>${data.titre}</p>                
                     </div>
                   </div>
-                  </div>`
+                </div>`
       });
 
       // je vide mon form
