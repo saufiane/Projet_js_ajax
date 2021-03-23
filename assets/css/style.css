@@ -23,7 +23,8 @@ body {
 .text-white {
   color: blanchedalmond;
   font-family: "Caveat", cursive;
-  /* font-size: 67px; */
+  margin-left: *
+  ;
 }
 
 .background_card {
@@ -31,24 +32,26 @@ body {
 }
 
 .card {
-  display: flex;
+  /* display: flex; */
   margin-top: 20px;
 
 }
 
 .card_element {
   width: 50%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   border: solid rgba(241, 238, 238, 0.438);
-  
+  padding-left: 0;
 }
 
 .card_element img {
   width: 100%; 
+  
 }
 
 .card_text {
-  padding: 5px 10px;
+  padding: 10px 10px;
+  
 }
 
 .text_center {
@@ -64,7 +67,7 @@ body {
 /* #combattants{
 
   margin: 0 auto;
-  /* border: solid red 1px; */
- */
+  border: solid red 1px; */
+
 
 
